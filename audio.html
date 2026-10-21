@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU audio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilização básica para centralizar o player na tela */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(255, 255, 255, 0.61);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .player-container {
+            background-color: rgba(255, 255, 255, 0.61);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #000000;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn-voltar {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+        .btn-voltar:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="player-container">
+        <h1>Ouvindo: Sua Música / Áudio</h1>
+        
+        <!-- O player de áudio com os controles visíveis -->
+        <!-- Substitua "seu-audio.mp3" pelo nome ou link do seu arquivo de som -->
+        <audio controls autoplay>
+            <source src="audios/minhaMusica.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+        <br>
+        <!-- Link para voltar para a sua página principal -->
+        <a href="index.html" class="btn-voltar">← Voltar para o Início</a>
+    </div>
+
+</body>
+</html>
