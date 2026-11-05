@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     min-height: 100%;
     overflow-x: hidden;
-    scroll-behavior: smooth; /* Rolagem suave épica */
+    scroll-behavior: smooth; 
 }
 
 /* --- VARIÁVEIS DE CORES --- */
@@ -28,12 +28,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    font-family: 'Montserrat', sans-serif; /* Fonte mais limpa para textos */
+    font-family: 'Montserrat', sans-serif; 
     color: var(--cor-branca);
 }
 
-/* --- CLASSE MÁGICA: GLASSMORPHISM --- */
-/* Deixa os fundos escuros com desfoque, separando o texto da imagem de fundo bagunçada */
 .glass-effect {
     background-color: rgba(10, 10, 10, 0.8);
     backdrop-filter: blur(8px);
