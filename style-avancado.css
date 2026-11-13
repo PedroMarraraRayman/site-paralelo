@@ -1,4 +1,9 @@
-
+.topo-animado h1, .topo-animado p {
+    animation: surgir 0.9s ease-out both;
+}
+.topo-animado p{
+    animation-delay: 0.3s;
+}
 /* Cartões dos hobbies */
 
 .card {

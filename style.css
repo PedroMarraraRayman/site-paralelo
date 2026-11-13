@@ -32,6 +32,11 @@ body {
     color: var(--cor-branca);
 }
 
+button{
+    align-items: center;
+    text-align: center;
+}
+
 .glass-effect {
     background-color: rgba(10, 10, 10, 0.8);
     backdrop-filter: blur(8px);
